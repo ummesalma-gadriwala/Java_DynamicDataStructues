@@ -1,3 +1,7 @@
+  /************************/
+ /* Umme Salma Gadriwala */
+/************************/
+
 package cs2s03;
 
 public class SnocList {
@@ -6,8 +10,6 @@ public class SnocList {
 	 * Linked-list in reverse order: 
 	 * upon creation a new node goes at the end of the list
 	 */
-	//cba
-	//abc
 	
 	private char c;
 	private SnocList l;
@@ -24,16 +26,9 @@ public class SnocList {
 	public char front() {
 		// returns first element of list
 		return this.c;
-//		char firstElement = this.c;
-//		SnocList list = this.l;
-//		while (list != null) {
-//			firstElement = list.c;
-//			list = list.l;
-//		}
-//		return firstElement;
 	}
 	
-	public void remove () {			//WORKS
+	public void remove () {			
 		// removes first element of list
 		// i.e. removes a
 		if (this.c != 0) {
@@ -47,7 +42,6 @@ public class SnocList {
 	}
 	
 	public void add (char c) {
-		// dcba
 		// add to end of linked list
 		// add to front of queue
 		
@@ -73,8 +67,7 @@ public class SnocList {
 	@Override
 	public boolean equals ( Object l ) {
 		if (l == null) return false;
-//		if (isEmpty()) return false;
-		if ( (l.toString()).equals(toString()) ) {    // check this!!
+		if ( (l.toString()).equals(toString()) ) {
 			return true;
 		} else {
 			return false;
@@ -100,6 +93,3 @@ public class SnocList {
 	
 }
 // new SnocList('a', new SnocList('p', new SnocList('p',null))) == p, p, a
-
-
-//the code for SnocList is trivial. He has already given it to us.
