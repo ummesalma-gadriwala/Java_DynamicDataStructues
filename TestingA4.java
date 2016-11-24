@@ -1,12 +1,15 @@
+  /************************/
+ /* Umme Salma Gadriwala */
+/************************/
+
 package cs2s03;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
 
 public class TestingA4 {
 
-		 /*     Exception Testing    */
+	     /*     Exception Testing    */
 	    /*         ListChar         */
 	   /*         3 tests          */
 	    // test 1
@@ -33,7 +36,7 @@ public class TestingA4 {
 			listChar.top();
 		}
 		
-		 /*     Exception Testing    */
+	     /*     Exception Testing    */
 	    /*         StackChar        */
 	   /*         3 tests          */
 		
@@ -64,7 +67,7 @@ public class TestingA4 {
 			stackChar.top();
 		}
 		
-		 /*     Exception Testing    */
+	     /*     Exception Testing    */
 	    /*         SnocQueue        */
 	   /*           3 tests        */
 			
@@ -95,7 +98,7 @@ public class TestingA4 {
 			snocQueue.peek();
 		}
 		
-		 /*     Exception Testing    */
+             /*     Exception Testing    */
 	    /*         AListPQueue      */
 	   /*           3 tests        */
 		
@@ -126,7 +129,7 @@ public class TestingA4 {
 			aListPQueue.next();
 		}
 		
-		   /*   Testing with 15 operations  */
+	       /*   Testing with 15 operations  */
 	      /*            ListChar           */
 	     /*             3+3 tests         */
 
@@ -166,7 +169,7 @@ public class TestingA4 {
 			assertEquals("{ListChar:  zyx}", listChar.toString());
 		}
 		
-		   /*   Testing with 15 operations  */
+	       /*   Testing with 15 operations  */
 	      /*            StackChar          */
 	     /*             3+3 tests         */
 		
@@ -206,7 +209,7 @@ public class TestingA4 {
 			assertEquals("{StackChar:  [z, y, x, c, b, a]}", stackChar.toString());
 		}
 		
-		   /*   Testing with 15 operations  */
+	       /*   Testing with 15 operations  */
 	      /*            SnocQueue          */
 	     /*             3+3 tests         */
 		
@@ -247,7 +250,7 @@ public class TestingA4 {
 		}		
 		
 		
-		   /*   Testing with 15 operations  */
+               /*   Testing with 15 operations  */
 	      /*            AListPQueue        */
 	     /*             3+3 tests         */
 
